@@ -206,6 +206,7 @@
 				"activities": [
 					{
 						"name": "read-csv",
+						"description": "reading the csv",
 						"type": "Lookup",
 						"dependsOn": [],
 						"policy": {
