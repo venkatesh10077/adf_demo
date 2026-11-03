@@ -1,0 +1,21 @@
+{
+	"name": "azure-data-factory-test001",
+	"properties": {
+		"globalParameters": {
+			"email_recepients": {
+				"type": "string",
+				"value": "venkychillakuru@gmail.com"
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "65e464ed-30e3-41df-be98-77327f948080",
+		"tenantId": "ecf5ccad-dde3-4a49-8262-d57cbc8053d3"
+	}
+}
