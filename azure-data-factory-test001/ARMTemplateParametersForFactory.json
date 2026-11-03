@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azure-data-factory-test001"
+		},
+		"testdemo_password": {
+			"value": ""
+		},
+		"ls_adls_properties_typeProperties_url": {
+			"value": "https://venkyadfstorage2026.dfs.core.windows.net/"
+		},
+		"testdemo_properties_typeProperties_server": {
+			"value": "venky-adf-sql-2026.database.windows.net"
+		},
+		"testdemo_properties_typeProperties_database": {
+			"value": "adf_practice_db"
+		},
+		"testdemo_properties_typeProperties_userName": {
+			"value": "venkyadmin"
+		}
+	}
+}
